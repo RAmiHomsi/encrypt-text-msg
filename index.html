@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+    <html >
+        <head>
+            <title>Encryption</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <style>
+            #app{
+                width: 100%;
+            }
+            #app p{
+                padding: 14px;
+                background: rgb(112, 91, 204);
+                color: white;
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 22px;
+            }
+            #app textarea{
+                width: 100%;
+                border:2px solid rgb(138, 138, 138);
+                outline: none;
+                border-radius: 14px;
+                min-height: 140px;
+            }
+            #app select{
+                width: 100%;
+                padding: 14px;
+                margin-bottom: 14px;
+                
+            }
+            </style>
+    
+        </head>
+        <body>
+           <main id="app">
+
+               <p>Text</p>
+               
+               <select id="select">
+                   <option value="encode">Encode</option>
+                   <option value="decode">Decode</option>
+               </select>
+
+               <textarea id="text" placeholder="write a text"></textarea>
+
+               <p>Result</p>
+
+               <textarea id="result" placeholder="write a text"></textarea>
+
+           </main> 
+
+        <script src="app.js"></script>
+
+        </body> 
+    </html>
